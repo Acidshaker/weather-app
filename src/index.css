@@ -350,18 +350,16 @@ body {
 
 
   .footer__container {
+    position: static;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    left: 50%;
-    transform: translateX(-50%);
-    /* bottom: %; */
     font-size: .8em;
+    margin-top: 1rem;
   }
 
   .weather-card__content {
-    row-gap: 1rem;
-    /* justify-content: end; */
+    row-gap: 2rem;
   }
 }
