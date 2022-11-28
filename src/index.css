@@ -356,7 +356,7 @@ body {
     align-items: center;
     left: 50%;
     transform: translateX(-50%);
-    bottom: 5%;
+    /* bottom: %; */
     font-size: .8em;
   }
 
