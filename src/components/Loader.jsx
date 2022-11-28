@@ -3,7 +3,7 @@ import React from 'react'
 const Loader = () => {
   return (
     <section className='loader__container'>
-      <div class="loadingio-spinner-dual-ring-vulwxt44xh7"><div class="ldio-3tugkvdust8">
+      <div className="loadingio-spinner-dual-ring-vulwxt44xh7"><div class="ldio-3tugkvdust8">
         <div></div><div><div></div></div>
       </div></div>
       {/* <div className="lds-roller"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div> */}

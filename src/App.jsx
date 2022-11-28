@@ -23,6 +23,16 @@ function App() {
     }
   }
 
+  const body = document.querySelector("body")
+  const loader = document.querySelector(".loader__container")
+
+  if (body.contains(loader)) {
+    body.classList.remove("loading")
+  }
+  else {
+    body.classList.add("loading")
+  }
+
   const changeUnitTemperature = () => {
     setIsCelcius(!isCelcius)
     changeClassDegrees()
