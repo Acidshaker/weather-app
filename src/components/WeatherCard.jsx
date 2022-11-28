@@ -20,6 +20,11 @@ const WeatherCard = ({ weather, temperature, isCelcius, changeUnitTemperature })
         <p className='weather-card__degrees celcius'>{isCelcius ? `${temperature.celcius} °C` : `${temperature.fahrenheit} °F`}</p>
         <button className='weather-card__btn' onClick={changeUnitTemperature}>Degrees °F/°C</button>
       </section>
+
+      <footer className='footer__container'>
+        <span className='copyright'>&copy; All rights reserved.</span>
+        <span className='contact'> <a href="https://portafolio-jorge-ortegon.netlify.app/" target="_blank">Contact</a></span>
+      </footer>
     </article>
   )
 }
