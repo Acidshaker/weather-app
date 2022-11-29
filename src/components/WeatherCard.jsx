@@ -23,7 +23,7 @@ const WeatherCard = ({ weather, temperature, isCelcius, changeUnitTemperature })
 
       <footer className='footer__container'>
         <span className='copyright'>&copy; All rights reserved.</span>
-        <span className='contact'> <a href="https://portafolio-jorge-ortegon.netlify.app/" target="_blank">Contact</a></span>
+        <span className='contact'> <a href="https://portafolio-jorge-ortegon.netlify.app/" target="_blank">Jorge Ortegón</a></span>
       </footer>
     </article>
   )
