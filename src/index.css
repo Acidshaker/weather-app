@@ -406,8 +406,6 @@ body {
       margin: 1rem;
       margin-bottom: 0;
       height: 90%;
-      padding-top: .2rem;
-      padding-bottom: .2rem;
     }
 
     /* .App {
@@ -423,6 +421,8 @@ body {
       grid-template-columns: 1fr 1fr;
       height: fit-content;
       row-gap: 0;
+      padding-top: .3rem;
+      padding-bottom: .3rem;
     }
 
     .weather-card__img--container {
